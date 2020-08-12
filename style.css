@@ -1,6 +1,22 @@
-body{
-font-family: 'Open Sans', sans-serif;
+/* Global */
+
+:root{
+    --color-grey:#b0aeaf;
 }
+
+
+/* universal tags */
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+
+
+
+
 
 .profile__img{
     width:50px;
