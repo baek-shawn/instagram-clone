@@ -14,47 +14,62 @@
 </head>
 <body>
     <!-- title -->
-    <section>
-        <i class="fab fa-instagram"></i>
-        <a href="#">Hunstagram</a>
-        <i class="far fa-paper-plane"></i>
+    <section class="title">
+        <div class="title__logo">
+            <i id="title__logo-ca" class="fab fa-instagram"></i>
+            <a href="#">Hunstagram</a>
+            <i id="title__logo-me" class="far fa-paper-plane"></i>
+        </div>
     </section>
 
-    <!-- head -->
+    <!-- header -->
     <header class="header">
-        <ul>
-            <li><img class="profile__img" src="imgs/profile1.jpg" alt="stoty profile1"></li>
-            <li><img class="profile__img" src="imgs/profile2.jpg" alt="stoty profile2"></li>
-            <li><img class="profile__img" src="imgs/profile3.jpg" alt="stoty profile3"></li>
-            <li><img class="profile__img" src="imgs/profile4.jpg" alt="stoty profile4"></li>
-        </ul>
+        <div class="header__img">
+            <img class="header__img__item" src="imgs/profile1.jpg" alt="stoty profile1">
+            <img class="header__img__item" src="imgs/profile2.jpg" alt="stoty profile2">
+            <img class="header__img__item" src="imgs/profile3.jpg" alt="stoty profile3">
+            <img class="header__img__item" src="imgs/profile4.jpg" alt="stoty profile4">
+
+        </div>
+        
     </header>
 
     <!-- main -->
     <main class="main">
-        <img class="main__profile profile__img "src="imgs/profile1.jpg">
-        <span class="main__profile-id">james_1994</span>
-        <button class="main__togle-btn">
-            <i class="fab fa-whmcs"></i>
-        </button>
+        <div class="main__profile">
+            <img class="main__profile__img" src="imgs/profile1.jpg">
+            <h5 class="main__profile-id">james_1994</h5>
+            <button class="main__togle-btn">
+                <i class="fab fa-whmcs"></i>
+            </button>
+        </div>
+        
+        
         <img class="main__img" src="imgs/image1.jpg">
-        <button class="main__like-btn">
-            <i class="far fa-heart"></i>
+        <div class="main__img__btn">
+            <button class="main__img__btn-item">
+                <i class="far fa-heart"></i>
+            </button>
+            <button class="main__img__btn-item">
+                <i class="far fa-comment"></i>
+            </button>
+            <button class="main__img__btn-item">
+                <i class="far fa-paper-plane"></i>
         </button>
-        <button class="main__like-btn">
-            <i class="far fa-comment"></i>
-        </button>
-        <button class="main__like-btn">
-            <i class="far fa-paper-plane"></i>
-        </button>
-        <h4>like 33</h4>
-        <a href="">james_1994</a> 
-        <span class="main__img-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Consequuntur, explicabo quos. Aspernatur eum deleniti accusantium! Saepe soluta iusto expedita 
-            ea consectetur, repellendus provident qui perferendis, ratione nulla aperiam magnam sint!</span>
-        <button class="main__img-pluscomments">
-            more comments
-        </button>
+
+        </div>
+        
+        <h4 class="main__img-like">like 33</h4>
+        <div class="main__img__description">
+            <a href="profile.html"><b>james_1994</b></a> 
+            <span class="main__img__description-ex">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Consequuntur, explicabo quos. Aspernatur eum deleniti accusantium! Saepe soluta iusto expedita 
+                ea consectetur, repellendus provident qui perferendis, ratione nulla aperiam magnam sint!</span>
+            <button class="main__img__description-plus">
+                more comments
+            </button>
+        </div>
+        
         <div class="main__img-comments">
             <h5 class="main__img-comments-id">shawn_baek</h5>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tenetur est natus nobis eveniet optio commodi,
              necessitatibus veritatis eaque architecto mollitia, repellat error accusantium voluptatum minus enim simili
@@ -87,17 +102,21 @@
                 
             </li>
             <li class="nav__list-item">
-                <a href="profile.html" class="nav__list-link">
-                    <img src="imgs/mine.jpg" alt="">
+                <a href="profile.html"  class="nav__list-link">
+                    <img id="nav__list-profile" src="imgs/mine.jpg" alt="">
                 </a>
                 
             </li>
         </ul>
 
     </nav>
+
+    
     
     <!-- loading -->
     <div class="loadingpage">
+        <i class="fab fa-instagram"></i>
+        <h1>Please make your screen small!😱😱</h1>
 
     </div>
 
